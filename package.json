@@ -1,0 +1,38 @@
+{
+  "name": "base-request",
+  "version": "0.0.0",
+  "description": "Plugin that adds `.request` and `.requestAll` methods to your [base][] applications for working with HTTP requests. Also can perform multiple requests on paged content - out of the box, if needed.",
+  "repository": "tunnckoCore/base-request",
+  "author": "Charlike Mike Reagent <@tunnckoCore> (http://www.tunnckocore.tk)",
+  "precommit.silent": true,
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "standard && node test.js"
+  },
+  "dependencies": {
+    "extend-shallow": "^2.0.1",
+    "lazy-cache": "^1.0.3",
+    "request-all": "^2.0.2",
+    "simple-get": "^2.0.0"
+  },
+  "devDependencies": {
+    "assertit": "^0.1.0",
+    "base": "^0.8.1",
+    "pre-commit": "*"
+  },
+  "files": [
+    "index.js",
+    "utils.js"
+  ],
+  "keywords": [
+    "base-request"
+  ],
+  "verb": {
+    "toc": false,
+    "layout": "empty",
+    "tasks": [
+      "readme"
+    ]
+  }
+}
